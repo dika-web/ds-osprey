@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ds-osprey/config": ["libs/config/src/index.ts"],
+      "@ds-osprey/core": ["core/src/index.ts"],
+      "@ds-osprey/kit": ["libs/kit/src/index.ts"],
+      "@ds-osprey/libs/config": ["libs/libs/config/src/index.ts"],
+      "@ds-osprey/libs/core": ["libs/core/src/index.ts"],
+      "@ds-osprey/libs/kit": ["libs/libs/kit/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
